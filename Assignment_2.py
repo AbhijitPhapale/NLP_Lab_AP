@@ -1,7 +1,7 @@
 #Assignment no : 2
-#Name : Atharva Vinod Ghodekar
-#Batch : B2
-#Roll no : 23
+#Name : Abhijit Balasaheb Phapale
+#Batch : B3
+#Roll no : 45
 #Title : Natural Language Processing (NLP) using Gensim
 
 import gensim
@@ -42,3 +42,17 @@ for item in g_bow:
 # print("TF-IDF Vector:")
 # for item in g_tfidf[g_bow]:
 #     print([[g_dict[id], np.around(freq, decimals=2)] for id, freq in item])
+
+
+#OUTPUT
+# The dictionary has: 13 tokens
+
+# {'Abhijit': 0, 'My': 1, 'Phapale.': 2, 'is': 3, 'name': 4, 'College': 5, 'Engineering.': 6, 'I': 7, 'Sanjivani': 8, 'am': 9, 'from': 10, 'of': 11, 'Junner.': 12}
+# Bag of Words :  [[(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)], [(5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)], [(0, 1), (3, 1), (10, 1), (12, 1)]]
+
+# --------------------------------------------------------------------------------------------------------------------------
+# -----TFIDF------------------------------------------------------------------------------------------------------------------
+# Dictionary : 
+# [['abhijit', 1], ['is', 1], ['my', 1], ['name', 1], ['phapale', 1]]
+# [['am', 1], ['college', 1], ['engineering', 1], ['from', 1], ['of', 1], ['sanjivani', 1]]
+# [['abhijit', 1], ['is', 1], ['from', 1], ['junner', 1]]
